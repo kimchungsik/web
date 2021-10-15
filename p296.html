@@ -37,6 +37,14 @@
             }
             document.getElementById("result").innerHTML = text;
         }
+        function fun3(){
+            let sum = 0;
+            for(let i=1; i <=100; i++){
+                sum += i;
+            }
+            let text = `1~100까지 합 = ${sum}`;
+            document.getElementById("result").innerHTML = text;
+        }
     </script>
 </head>
 <body>
@@ -44,6 +52,7 @@
    <input type="text" name="" id="y"><br>
    <button onclick="fun1();"> 연산결과 </button>
     <button onclick="fun2();"> 성적확인 </button>
+    <button onclick="fun3();"> 반복문(합구하기) </button>
    <div id="result">
 
    </div>
