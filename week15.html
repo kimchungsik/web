@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    /*
+    *함수 선언형식
+    function name(parameterl, parameter2 , parameter3){
+        // code to be executed
+        *   function expression(anonymous function : expression을 사용하여
+        const x = function (a,b) {return a * b};
+    * Arrow functions 은 ES6에 추가된 내용
+    함수에 관한 문법을 짧게(단순하게) 적을 수 있음
+    const x = (x,y) => {    }
+    hoistinn : 변수 또는 함수 선언을 자바스크립트 단위로 이동함
+    */
+      alert(mul(10,5));
+      function mul(a,b) {
+          return a*b;
+      }
+      const add = (x,y) => {
+          return x*y;
+      }
+      alert(add(10,40));
+      const div = function(a,b){
+          if (b=-0){
+              return "연산불능";
+          }else {
+              return a/b;
+          }
+      }
+      alert(div(50,10));
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
